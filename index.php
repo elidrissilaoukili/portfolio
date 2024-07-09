@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- style -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/projects.css">
+
+    <!-- javascript -->
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="./assets/owlcarousel_lib/vendors/jquery.min.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="./assets/owlcarousel_lib/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/owlcarousel_lib/owlcarousel/assets/owl.theme.default.min.css">
+    <!-- Javascript -->
+    <script src="./assets/owlcarousel_lib/vendors/jquery.min.js"></script>
+    <script src="./assets/owlcarousel_lib/owlcarousel/owl.carousel.js"></script>
+
+    <title>EL IDRISSI</title>
+</head>
+
+<body>
+
+    <!--  header starts  -->
+    <header>
+        <div class="header-container">
+
+            <img src="./assets/images/me.png" alt="Profile Picture" class="profile-pic">
+            <h1>EL IDRISSI LAOUKILI &#128512</h1>
+
+            <p>
+                Specializing in web development
+                <a href="./assets/docs/cv.pdf" download="cv.pdf" class="btn-cv">
+                    CV
+                    <!-- <img src="{{ asset('assets/images/cv.png') }}" alt="" width="20px" style="margin-left: 0.5rem;"> -->
+                    <ion-icon name="download" style="margin-left: 0.5rem;"></ion-icon>
+                </a>
+            </p>
+            <p class="d-flex-jsc-ali-c contact-container">
+                <a href="mailto:elidrissilaoukili@gmail.com" target="_blank"><ion-icon name="mail"></ion-icon></a>|
+                <a href="https://wa.me/0767194500" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon></a>|
+                <a href="https://www.linkedin.com/in/elidrissilaoukili/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>|
+                <a href="https://github.com/elidrissilaoukili" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+            </p>
+        </div>
+    </header>
+    <!-- header ends -->
+
+
+
+
+    <!-- main starts -->
+    <main>
+        <section class="">
+            <div class="about-container">
+                <div class="about-content about-content-main">
+                    <h3>About Me </h3>
+                    <div>
+                        <button id="ar-lang">AR</button>
+                        <button id="fr-lang">EN</button>
+                    </div>
+                    <p class="justfy-txt" id="en">
+                        My name is Mohammed, and I am a web developer specializing in PHP up to now. While I may not
+                        consider myself a master, I am passionate about learning new technologies and applying them in
+                        practical projects. For me, learning goes beyond acquiring knowledge—I believe in putting that
+                        knowledge into action. I find it ineffective to gather a lot of information without utilizing
+                        it, so I always strive to implement what I learn.
+                    </p>
+                    <p class="justfy-txt" style="text-align: right" id="ar">
+                        اسمي محمد، وأنا مطور ويب متخصص في لغة PHP حتى الآن. على الرغم من أنني قد لا أعتبر نفسي أستاذًا،
+                        إلا أنني شغوف بتعلم التقنيات الجديدة وتطبيقها في المشاريع العملية. بالنسبة لي، التعلم يتجاوز
+                        مجرد اكتساب المعرفة، فأنا أؤمن بوضع هذه المعرفة موضع التنفيذ. أجد أنه من غير المجدي جمع الكثير
+                        من المعلومات دون الاستفادة منها، لذلك أسعى دائمًا إلى تنفيذ ما أتعلمه.
+                    </p>
+                </div>
+
+                <div class="about-content about-content-side">
+                    <div class="line">
+                        <h4>Strengths &#128170</h4>
+                        <p class="">
+                            Problem-Solving | Collaboration | Adaptability
+                        </p>
+                    </div>
+                    <div class="d-flex" style="justify-content: space-between">
+                        <div>
+                            <h4>Languages &#128483</h4>
+                            <p class="justfy-txt">
+                            <div class="d-flex-jsc-ali-c" style="height:15px;width:100px;border:0.5px solid black">
+                                <div class="d-flex-jsc-ali-c" style="height:100%;width:100%; background-color:#9bff9b;margin:4px 0">
+                                    Arabic
+                                </div>
+                            </div>
+                            <div class="d-flex-ali-c" style="height:15px;width:100px;border:0.5px solid black">
+                                <div class="d-flex-jsc-ali-c" style="height:100%;width:80%; background-color:#70ffff;margin:4px 0">
+                                    English
+                                </div>
+                            </div>
+                            <div class="d-flex-ali-c" style="height:15px;width:100px;border:0.5px solid black">
+                                <div class="d-flex-jsc-ali-c" style="height:100%;width:45%; background-color:#ffb8b8;margin:4px 0">
+                                    French
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="{{ asset('assets/images/thinking.png') }}" alt="" width="100px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="about-container">
+                <div class="about-content">
+                    <p class="justfy-txt">
+                        I have a solid foundation in web development, with expertise in PHP and the Laravel framework. I am proficient in JavaScript, including jQuery and AJAX, and have experience with HTML, CSS, and React.js for building dynamic and responsive web applications. Additionally, I have a strong understanding of database management, including MySQL, SQL, and PL/SQL. I am also familiar with version control using GitHub and have some experience with Java
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+
+
+        <section class="projects">
+            <div class="about-container-skill">
+                <center>
+                    <h2>My Skills &#129488</h2>
+                </center>
+                <div class="skills-card" id="skillTable">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Skills</th>
+                                <th>FSDM</th>
+                                <th>Self learning</th>
+                                <th>Self training</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>PHP</th>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <th>Laravel</th>
+                                <td class="unchecked"><ion-icon name="close"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <th>JS <ion-icon name="logo-nodejs"></ion-icon></th>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <th>CSS <ion-icon name="logo-css3"></ion-icon></th>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <th>HTML <ion-icon name="logo-html5"></ion-icon></th>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <th>jQuery</th>
+                                <td class="unchecked"><ion-icon name="close"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <th>AJAX</th>
+                                <td class="unchecked"><ion-icon name="close"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <th>React.js</th>
+                                <td class="unchecked"><ion-icon name="close"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <th>Java</th>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="unchecked"><ion-icon name="close"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <th>C</th>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <th>C++</th>
+                                <td class="unchecked"><ion-icon name="close"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="unchecked"><ion-icon name="close"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <th>Python <ion-icon name="logo-python"></ion-icon></th>
+                                <td class="unchecked"><ion-icon name="close"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="unchecked"><ion-icon name="close"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <th>MySQL</th>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <th>SQL</th>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <th>PL/SQL</th>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="unchecked"><ion-icon name="close"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <th>Algorithm & Data Structure <ion-icon name="analytics"></ion-icon></th>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="unchecked"><ion-icon name="close"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <th>Linux</th>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="unchecked"><ion-icon name="close"></ion-icon></td>
+                                <td class="unchecked"><ion-icon name="close"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <th>Github <ion-icon name="logo-github"></ion-icon></th>
+                                <td class="unchecked"><ion-icon name="unchecked"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <th>UML</th>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="unchecked"><ion-icon name="close"></ion-icon></td>
+                                <td class="unchecked"><ion-icon name="close"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <th>MsProject</th>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="unchecked"><ion-icon name="close"></ion-icon></td>
+                                <td class="unchecked"><ion-icon name="close"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <th>Word</th>
+                                <td class="unchecked"><ion-icon name="close"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <th>Excel</th>
+                                <td class="unchecked"><ion-icon name="close"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="unchecked"><ion-icon name="close"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <th>PowerPoint</th>
+                                <td class="unchecked"><ion-icon name="close"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <th>VSCode</th>
+                                <td class="unchecked"><ion-icon name="close"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <th>SublimeText</th>
+                                <td class="unchecked"><ion-icon name="close"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <th>Eclipse</th>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="unchecked"><ion-icon name="close"></ion-icon></td>
+                                <td class="unchecked"><ion-icon name="close"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <th>Figma</th>
+                                <td class="unchecked"><ion-icon name="close"></ion-icon></td>
+                                <td class="checked"><ion-icon name="checkmark"></ion-icon></td>
+                                <td class="unchecked"><ion-icon name="close"></ion-icon></td>
+                            </tr>
+                            <tr>
+                                <th>ctr + c <span class="emoj">&#128517</span></th>
+                                <td>&#128526</td>
+                                <td>&#128526</td>
+                                <td>&#128526</td>
+                            </tr>
+                            <tr>
+                                <th>ctr + v <span class="emoj">&#128517</span></th>
+                                <td>&#128526</td>
+                                <td>&#128526</td>
+                                <td>&#128526</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="pagination-table">
+                        <button id="prevPage">Previous</button>
+                        <span id="currentPage">Page 1</span>
+                        <button id="nextPage">Next</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects-container">
+                <div id="projects-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <center>
+                                    <h2>Projects <img src="./assets/images/projects.png" alt="" width="25px"></h2>
+                                </center>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <h3>Car Rental Website</h3>
+                                    <p class="justfy-txt">
+                                        A car rental web application built with Laravel, MySQL, JavaScript, and CSS allows users to browse, book, and manage car rentals. It includes user authentication and real-time availability. An admin panel manages rented cars, reservations, clients, and employees, with the ability to add new employees. Clients have the right to create accounts, log in, and manage their profiles and bookings. For users without an account, an account is automatically created upon completing the booking form, and all information is provided in the booking receipt, which can be downloaded as a PDF
+                                        <button class="btn btn-color" style="float: right;" id="project1">
+                                            view details <ion-icon name="open"></ion-icon>
+                                        </button>
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="pagination-table">
+                        <button id="prevPage">Previous</button>
+                        <span id="currentPage">Page 1</span>
+                        <button id="nextPage">Next</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="projects-details">
+            <div class="project-details" id="details1">
+                <center>
+                    <h1>{{ $project->title }}</h1>
+                    <p>Added On: {{ $project->created_at->format('M d, Y H:i:s') }}</p>
+                </center>
+
+
+                @if (!is_null($project->video_path))
+                <h3>Video demenstration of the application <ion-icon name="videocam"></ion-icon></h3>
+                <div class="d-flex-jsc-c">
+                    <video src="{{ asset($project->video_path) }}" width="85%" height="85%" autoplay controls></video>
+                </div>
+                @elseif (!empty($project->image_path))
+                <h3>Images of the application <ion-icon name="camera"></ion-icon></h3>
+                <div class="image-carousel-container">
+                    <div class="owl-carousel">
+                        @foreach (json_decode($project->image_path) as $image)
+                        <div class="item">
+                            <img src="{{ asset($image) }}" alt="Project image view" class="carousel-image">
+                        </div>
+                        @endforeach
+
+                    </div>
+                    <div class="carousel-controls">
+                        <a class="button play">Play</a>
+                        <a class="button stop">Stop</a>
+                    </div>
+                </div>
+                @else
+                <center>
+                    <div class="no-media-data">
+                        <h1>No data supported</h1>
+                        <img src="{{asset('assets/images/error.png')}}" alt="">
+                    </div>
+                </center>
+                @endif
+
+                <!-- <h1></h1> -->
+                <h3>Description:</h3>
+                <div class="">
+                    <p>{{ $project->description }}</p>
+                </div>
+
+                @if (!empty($project->live_version))
+                <h3>This website is hosted, you could visit it from here:
+                    <a href="{{ $project->live_version }}" target="_blank">{{ $project->live_version }}</a>
+                </h3>
+                @endif
+
+                <h3>Used Technologies <ion-icon name="hammer"></ion-icon> </h3>
+                <div class="d-flex" style="flex-wrap: wrap;">
+                    @foreach ($tools as $tool)
+                    <div class="btn">{{ $tool }}</div>
+                    @endforeach
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="courses">
+            <center>
+                <h2>Online Courses <ion-icon name="tv"></ion-icon> {{ $courses_count }}</h2>
+            </center>
+
+            <div class="courses-cover d-flex-ali-c">
+
+                @foreach ($courses as $course)
+                <?php $count++; ?>
+                <div class="course" id="course-overflow">
+                    <center>
+                        <h3>Course {{ $count  }}</h3>
+                    </center>
+                    <p class="justfy-txt">
+                        <li><b>Course Title:</b> {{ $course->course_title }}</li>
+                        <li><b>Platform:</b> {{ $course->platform }}</li>
+                        <li><b>Instructor:</b> {{ $course->instructor }}</li>
+                        <li><b>Duration:</b> {{ $course->duration }}</li>
+                        <li><b>Date Completed:</b> {{ $course->date_completed }}</li>
+                        <li><b>Description:</b> {{ $course->description }}</li>
+                    </p>
+                </div>
+                @endforeach
+            </div>
+        </section> -->
+    </main>
+
+
+
+    <!-- JavaScript for table oagination -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const skillTable = document.getElementById('skillTable');
+            const rows = skillTable.querySelectorAll('tbody tr');
+            const prevPageButton = skillTable.querySelector('#prevPage');
+            const nextPageButton = skillTable.querySelector('#nextPage');
+            const currentPageSpan = skillTable.querySelector('#currentPage');
+            const rowsPerPage = 15;
+            let currentPage = 1;
+
+            // Function to show rows for the current page
+            function showRows() {
+                const start = (currentPage - 1) * rowsPerPage;
+                const end = start + rowsPerPage;
+                rows.forEach((row, index) => {
+                    if (index >= start && index < end) {
+                        row.style.display = 'table-row';
+                    } else {
+                        row.style.display = 'none';
+                    }
+                });
+                // Update current page indicator
+                currentPageSpan.textContent = `Page ${currentPage}`;
+                // Toggle visibility of pagination buttons
+                prevPageButton.disabled = currentPage === 1;
+                nextPageButton.disabled = end >= rows.length;
+            }
+
+            // Initial display of rows
+            showRows();
+
+            // Event listener for 'Previous' button click
+            prevPageButton.addEventListener('click', function() {
+                if (currentPage > 1) {
+                    currentPage--;
+                    showRows();
+                }
+            });
+
+            // Event listener for 'Next' button click
+            nextPageButton.addEventListener('click', function() {
+                const start = (currentPage - 1) * rowsPerPage;
+                const end = start + rowsPerPage;
+
+                if (end < rows.length) {
+                    currentPage++;
+                    showRows();
+                }
+            });
+        });
+    </script>
+
+
+    <script>
+        // $('#project1').click(function() {
+        //     $('#details1').show();
+        // });
+        // $('#closep').click(function() {
+        //     $('#details1').hide();
+        // });
+    </script>
+
+
+    <script>
+        $('#ar-lang').click(function() {
+            $('#ar').show();
+            $('#en').hide();
+        });
+        $('#fr-lang').click(function() {
+            $('#ar').hide();
+            $('#en').show();
+        });
+        $('#ar').hide();
+    </script>
+
+
+    <style>
+        /* footer */
+        footer {
+            background: var(--light-black);
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; {{ date('Y') }} elidrissilaoukili. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
